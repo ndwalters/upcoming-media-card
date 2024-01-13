@@ -1,4 +1,6 @@
-# Upcoming-Media-Card
+# Upcoming Media Card
+
+<br/>
 
 | Poster View | Fan Art View
 | ---- | ---- 
@@ -6,10 +8,13 @@
 
 <br/>
 
+This has been forked from the original [upcoming-media-card](https://github.com/custom-cards/upcoming-media-card) by [maykar](https://github.com/maykar).
+<br/>
+
 **Requires a custom-component:**<br/>
 This card will only work if you've installed one of the custom-component's below to feed it.
 
-### Current custom-components for this card:
+### Current custom-components available for this card:
 
 | Component |  Author |
 |:---------------|----------:|
@@ -17,23 +22,12 @@ This card will only work if you've installed one of the custom-component's below
 |[Emby_Upcoming_Media](https://github.com/gcorgnet/sensor.emby_upcoming_media)|[gcorgnet](https://github.com/gcorgnet)
 |[Kodi Recently Added](https://github.com/boralyl/kodi-recently-added)|[boralyl](https://github.com/boralyl)
 |[Mylar](https://github.com/DarkSir23/sensor.mylar)|[DarkSir23](https://github.com/DarkSir23)
-|[Plex Recently Added](https://github.com/custom-components/sensor.plex_recently_added)|[mayker](https://github.com/maykar)
-|[Radarr Upcoming Media](https://github.com/custom-components/sensor.radarr_upcoming_media)|[mayker](https://github.com/maykar)
+|[Plex Recently Added](https://github.com/ndwalters/sensor.plex_recently_added)|[ndwalters](https://github.com/ndwalters)
+|[Radarr Upcoming Media](https://github.com/ndwalters/sensor.radarr_upcoming_media)|[ndwalters](https://github.com/ndwalters)
 |[SickChill](https://github.com/youdroid/home-assistant-sickchill)|[youdroid](https://github.com/youdroid)
-|[Sonarr Upcoming Media](https://github.com/custom-components/sensor.sonarr_upcoming_media)|[mayker](https://github.com/maykar)
+|[Sonarr Upcoming Media](https://github.com/ndwalters/sensor.sonarr_upcoming_media)|[ndwalters](https://github.com/ndwalters)
 |[Trakt](https://github.com/custom-components/sensor.trakt)|[iantrich](https://github.com/iantrich)
 
-### Issues
-Read through these two resources before posting issues to GitHub or the forums.
-* [troubleshooting guide](https://github.com/custom-cards/upcoming-media-card/blob/master/troubleshooting.md)
-* [@thomasloven's lovelace guide](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins).
-
-
-## Supporting Development
-- :coffee:&nbsp;&nbsp;[Buy me a coffee](https://www.buymeacoffee.com/FgwNR2l)
-- :1st_place_medal:&nbsp;&nbsp;[Tip some Crypto](https://github.com/sponsors/maykar)
-- :heart:&nbsp;&nbsp;[Sponsor me on GitHub](https://github.com/sponsors/maykar)
-  <br><br>
 
 ## Features:
 * Poster and Fan Art views
@@ -44,7 +38,18 @@ Read through these two resources before posting issues to GitHub or the forums.
 * Can limit the number of episodes/movies shown.
 * Uses responsive design to scale elegantly 
 
-## Installation:
+## Installation in HACS (Custom Repositories):
+
+1. Select HACS in Home Assistant
+2. Go to any of the sections (integrations, frontend, automation).
+3. Click on the 3 dots in the top right corner.
+4. Select "Custom repositories"
+5. Add the URL "https://github.com/ndwalters/upcoming-media-card"
+6. Select the category "frontend".
+7. Click the "ADD" button.
+8. **You will need to restart after installation for the component to start working.**
+
+## Manual Installation:
 
 * Install the custom component by following it's instructions.
 * Install this card by copying `upcoming-media-card.js` to your `www/custom-lovelace/` folder. If you're copy/pasting the code always copy from raw files on github (button on top right when viewing code).
