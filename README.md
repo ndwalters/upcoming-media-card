@@ -4,7 +4,7 @@
 
 | Poster View | Fan Art View
 | ---- | ---- 
-| <img src="https://imgur.com/gKHbplv.jpg" alt="Screenshot 1" width="250"> | <img src="https://i.imgur.com/noB7Hub.jpg" alt="Screenshot 1" width="250"> 
+| <img src="https://raw.githubusercontent.com/ndwalters/upcoming-media-card/master/Poster_View.jpg" alt="Screenshot 1" width="250"> | <img src="https://raw.githubusercontent.com/ndwalters/upcoming-media-card/master/Fanart_View.jpg" alt="Screenshot 1" width="250"> 
 
 <br/>
 
